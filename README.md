@@ -11,6 +11,9 @@ Private brawl stars server with PvP Battles (v27.269)
 - Method 2: Compile `Supercell.Laser.Server.csproj` using `dotnet` & run it using `dotnet Supercell.Laser.Server.dll`
 ##### Database
 You need to setup mysql server and import `database.sql` file from this repository.
+##### Configuration
+- Set your ip in `config.json` -> `udp_host`
+- Set your mysql database name, password, and username in `config.json`
 ##### Client
 - Download apk here: [link](https://drive.google.com/file/d/11c6Zzpe8Je4qT32MMJJ-77U4nIYh8Riv/view?usp=sharing)
 - Open this file: `lib/armeabi-v7a/libreversed.script.so` and put your ip address in `HostPatcher`

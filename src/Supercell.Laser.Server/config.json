@@ -1,0 +1,7 @@
+﻿{
+  "udp_host": "192.168.0.108",
+  "udp_port": 9449,
+  "database_username": "root",
+  "database_password": "",
+  "database_name":  "brawldatabase"
+}
